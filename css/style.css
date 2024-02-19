@@ -1,1 +1,31 @@
-/* Denna fil skall innehålla din CSS kod */
+
+#wrapper {
+    display: grid;
+    width: 100vw;
+    grid-template-areas:
+    'hd hd'
+    'mn mn'
+    'ft ft';
+}
+
+header {
+    grid-area: hd;
+    background-color:#3F9049;
+    height: 4rem;
+}
+
+main {
+    grid-area: mn;
+    border: solid 5px black;
+    height: 2rem;
+}
+
+footer {
+    grid-area: ft;
+    border: solid 5px black;
+    height: 2rem;
+}
+
+#logga {
+    height: 3rem;
+}
