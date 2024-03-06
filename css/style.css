@@ -11,7 +11,7 @@
 header {
     grid-area: hd;
     background-color:#3F9049;
-    height: 4rem;
+    height: auto;
     padding: 1rem;
 }
 
@@ -42,7 +42,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 nav.active {
@@ -55,6 +55,7 @@ nav.active {
 
     header{
         position: relative;
+        height: auto;
     }
 
     #hamburger {
@@ -73,4 +74,31 @@ nav.active {
     #hamburger div{
         border:#000 2px solid;
         margin: 0.3rem
-    }}
+    }
+}
+
+@media only screen and (min-width:600px) {body
+    { background-color: #ffffff;
+        }
+
+    header{
+        position: relative;
+        height: auto;
+        display: flex;
+    }
+
+
+    .menyn {
+        display: flex;
+        align-content: flex-end;
+        list-style-type: none;
+    }
+
+    ul {
+        display: flex;
+    }
+    
+    nav ul li {
+        margin-left: 3rem;
+    }
+}
