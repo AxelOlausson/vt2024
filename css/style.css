@@ -49,6 +49,38 @@ nav.active {
     display: block;
 }
 
+h2 ul li {
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+#ledare1 {
+    width: 7rem;
+    height: 7rem;
+    margin: 0.4rem;
+}
+
+#ledare2 {
+    width: 7rem;
+    height: 7rem;
+    margin: 0.4rem;
+}
+
+#ledare3 {
+    width: 7rem;
+    height: 7rem;
+    margin: 0.4rem;
+}
+
+#ledare4 {
+    width: 7rem;
+    height: 7rem;
+    margin: 0.4rem;
+}
+
+
+
 @media only screen and (max-width:600px) {body
     { background-color: #ffffff;
         }
@@ -67,7 +99,7 @@ nav.active {
         right: 0.7rem;
     }
 
-.menyn {
+    .menyn {
         display: none;
     }
 
