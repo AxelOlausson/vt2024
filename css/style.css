@@ -45,7 +45,11 @@ h2 {
     font-size: 1rem;
 }
 
-h2 ol li {
+p {
+    font-size: 1rem;
+}
+
+ol li {
     color: blue;
 }
 
